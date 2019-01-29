@@ -1,0 +1,170 @@
+.homeone{
+    @import "theme/bootstrap";
+@import "theme/loader";
+
+// Theme custom styling
+.page-container{
+    padding: 50px 0;
+
+}
+
+.wrapper{
+    width: 95%;
+    margin: auto;
+}
+.navbar {
+    background-color: rgba(187, 187, 187, 0.7);
+    .navbar-brand {
+        width: 100%;
+        img {
+            width: 50%;
+        }
+    }
+
+    #collapsibleNavbar {
+        width: 100%;
+    }
+}
+#demo {
+    .carousel-inner { 
+        .carousel-item {
+            height: 100vh;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+}
+
+.departments{
+    .acard {
+        box-shadow: 0px 0px 4px #bbbbbb;
+        padding: 15px;
+        margin: 20px 0;
+        &:hover{
+            background-color: #f1f1f1;
+        }
+        .image-container{
+            height: 200px;
+            margin-bottom: 1em;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+               
+            }
+        }
+        button{
+            position: relative;
+            right: 1%;
+        }
+    }
+    
+}
+
+.announce{
+    background-color: #ece9e5;
+    .heading{
+        color: #17a2b8;
+    }
+    #scrolldiv {
+        height: 500px;
+        overflow-y: scroll;
+        padding: 15px 15px 0 15px;
+    }
+    #scrolldivnews {
+        background-image: url("/assets/images/newspaper.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: repeat-y;
+        height: 500px;
+        overflow-y: scroll;
+        .overlay {
+            background: rgba(255, 255, 255, 0.5);
+            height: 100%;
+            width: 100%;
+            padding: 15px 15px 0;
+            .news {
+                background: rgba(255,255,255,.4);
+                list-style: none;
+                padding: 0;
+                .onenews {
+                    /* padding: 25px 10px; */
+                    margin: 20px 0;
+                    /* box-shadow: 0px 0px 4px grey; */
+                    &:hover{
+                        box-shadow: 0px 1px 6px grey;
+                    }
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+    }
+    .acard{
+        position: relative;
+        padding: 26px;
+        margin: 30px 0;
+        box-shadow: 0px 0.5px 4px #b7b7b7;
+        img{
+            position: absolute;
+            width: 60px;
+            top: -12%;
+            left: 0;
+        }
+        p{
+            font-size: 15px;
+        }
+        .shortp{
+            font-size: 12px;
+        }
+
+        
+        a{
+            color: #4e4e4e;
+            &:hover{
+                text-decoration: none;
+                
+            }
+        }
+    }
+
+}
+
+
+
+.footer{
+    background-color: #c9c8c7;
+    .acard{
+        padding: 25px;
+        .quick{
+            list-style: none;
+            padding: 0;
+            li{
+                display: inline-block;
+                margin: 0 15px;
+            }
+        }
+        .cont{
+            list-style: none;
+            padding: 0;
+            li{
+                display: inline-block;
+                margin: 0 15px;
+                p{
+                    line-height: 1em;
+                }
+            }
+        }
+        img{
+            width: 100%;
+        }
+        
+    }
+}
+}
