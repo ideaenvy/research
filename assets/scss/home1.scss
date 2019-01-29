@@ -15,7 +15,7 @@ html {
     margin: auto;
 }
 .navbar {
-    background-color: rgba(187, 187, 187, 0.849);
+    
     .navbar-brand {
         width: 100%;
         img {
@@ -26,6 +26,14 @@ html {
     #collapsibleNavbar {
         width: 100%;
     }
+}
+.darkHeader{
+    background-color: black;
+    transition: all 1s linear;
+}
+.lighthead{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 1s linear;
 }
 #demo {
     .carousel-inner { 
@@ -150,9 +158,20 @@ html {
 
 
 .footer{
-    background-color: #c9c8c7;
+    background-color: rgb(22, 22, 22);
+    color: rgb(219, 217, 217);
     .acard{
         padding: 25px;
+        h6{
+            &::before {
+                content: "";
+                position: absolute;
+                top: 17%;
+                width: 45px;
+                height: 2px;
+                background-color: white;
+            }
+        }
         .quick{
             list-style: none;
             padding: 0;
@@ -178,4 +197,13 @@ html {
         
     }
 }
+}
+
+@media only screen and (max-width: 768px){
+    .homeone .navbar .navbar-brand{
+        width: 70%;
+        img{
+            width: 100%;
+        }
+    }
 }

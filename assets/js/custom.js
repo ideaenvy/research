@@ -10,3 +10,20 @@ $('.gobottom').click(function() {
     }
 
 });
+
+$(function() {
+    var header = $(".navbar");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 600) {
+            header.removeClass('lighthead').addClass("darkHeader");
+           
+        } else {
+            header.removeClass("darkHeader").addClass('lighthead');
+           
+        }
+        
+        
+    });
+});
