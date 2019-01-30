@@ -22,10 +22,10 @@ html {
             width: 50%;
         }
     }
-
+  
     #collapsibleNavbar {
         width: 100%;
-        .nav-item{
+        .nav-item{ 
             a{
                 &:active{
                     color: white;
@@ -198,7 +198,7 @@ html {
 
 }
 
-
+ 
 
 .footer{
     background-color: rgb(22, 22, 22);
@@ -242,7 +242,7 @@ html {
 }
 
 @media only screen and (max-width: 768px){
-    .homeone .navbar .navbar-brand{
+    .navbar .navbar-brand{
         width: 70%;
         img{
             width: 100%;

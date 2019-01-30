@@ -23,6 +23,9 @@ gulp.task(
     gulp
       .watch(["assets/scss/*.scss"], gulp.series(["sass"]))
       .on("change", browserSync.reload);
+    gulp
+      .watch(['assets/scss/**/**/*.scss'], gulp.series(["sass"]))
+      .on('change', browserSync.reload);
   })
 );
 

@@ -1,19 +1,5 @@
-html {
-    scroll-behavior: smooth;
-}
 .aboutamrf{
    
-
-// Theme custom styling
-.page-container{
-    padding: 50px 0;
-
-}
-
-.wrapper{
-    width: 95%;
-    margin: auto;
-}
 .navbar {
     
     .navbar-brand {
@@ -30,7 +16,7 @@ html {
                 background-color: #ece9e5;
             }
         }
-    }
+    } 
 }
 .darkHeader{
     background-color: black;
@@ -44,6 +30,7 @@ html {
 #page-header{
     height: 50vh;
     overflow: hidden;
+    
     .img-container{
         background-image: url(/assets/images/pageheader.jpg);
         height: 100%;
@@ -52,8 +39,14 @@ html {
         background-position: center center;
         background-repeat: no-repeat;
         .overlay {
-            background: rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.7);
             height: 100%;
+            .text-container{
+                position: relative;
+                top: 70%;
+                color: #fff;
+                text-align: center;
+            }
         }
     }
 }
@@ -114,13 +107,4 @@ html {
         padding: 10px;
     }
 }
-}
-
-@media only screen and (max-width: 768px){
-    .homeone .navbar .navbar-brand{
-        width: 70%;
-        img{
-            width: 100%;
-        }
-    }
 }
