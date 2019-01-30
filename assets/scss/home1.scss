@@ -26,8 +26,16 @@ html {
     #collapsibleNavbar {
         width: 100%;
         .nav-item{
+            a{
+                &:active{
+                    color: white;
+                }
+            }
             .dropdown-menu{
                 background-color: #ece9e5;
+                &:active{
+                    background-color: #ece9e5;
+                }
             }
         }
     }
