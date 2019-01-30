@@ -29,6 +29,31 @@ html {
         width: 100%;
     }
 }
+
+#page-header{
+    height: 50vh;
+    overflow: hidden;
+    
+    .img-container{
+        background-image: url(/assets/images/pageheader.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            height: 100%;
+            .text-container{
+                position: relative;
+                top: 70%;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+}
+
 #demo {
     .carousel-inner { 
         .carousel-item {
@@ -140,5 +165,14 @@ html {
             width: 100%;
         }
         
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navbar .navbar-brand{
+        width: 70% !important; 
+        img{
+            width: 100% !important;
+        }
     }
 }
