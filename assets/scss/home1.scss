@@ -210,26 +210,25 @@ html {
         .quickk{
             list-style: none;
             padding: 0;
+            margin-bottom: 0;
             li{
                 /* display: inline-block; */
                 margin: 0 15px;
             }
         }
-        .contt{
-            list-style: none;
-            padding: 0;
-            li{
-                display: inline-block;
-                margin: 0 15px;
-                p{
-                    line-height: 1em;
-                }
-            }
-        }
+        
         img{
             width: 100%;
         }
         
+    }
+    .rowdivide{
+        background-color: #ece9e5;
+        margin: 0;
+    }
+    .copyright{
+        text-align: right;
+        padding: 10px;
     }
 }
 }
