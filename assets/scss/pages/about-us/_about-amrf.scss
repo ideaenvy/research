@@ -29,6 +29,7 @@
 
 
 
+
 #starting{
     .col-md-6{
         img{
@@ -36,7 +37,8 @@
             height: 100%;
         }
     }
-    .col-md-6{
+    .heading{
+        position: relative;
         h2{
             &:before{
                 content: "";
@@ -58,16 +60,18 @@
     background-color: #ece9e5;
     .heading{
         margin-bottom: 30px;
+        position: relative;
         h2{
             &:before{
                 content: "";
                 position: absolute;
-                bottom: -8%;
+                bottom: -13px;
                 width: 100px;
                 height: 3px;
                 background-color: #000;
             }
         }
+       
     }
 
     .carde {
@@ -89,7 +93,32 @@
     }
 }
 
-
+#recognition{
+    .headinig{
+        margin-bottom: 30px;
+        position: relative;
+        h2{
+            &:before{
+                content: "";
+                position: absolute;
+                bottom: -13px;
+                width: 100px;
+                height: 3px;
+                background-color: #000;
+            }
+        }
+        
+    }
+    ul{
+        list-style: none;
+        li{
+            
+            p{
+                margin-left: 10px;
+            }
+        }
+    }
+}
 .footer{
     background-color: rgb(22, 22, 22);
     color: rgb(219, 217, 217);
