@@ -29,21 +29,10 @@
     
     
     #admins{
-        .carde {
-            box-shadow: 0px 0px 4px grey;
-            margin: 20px 0;
-            img{
-                width: 100%;
-            }
-            .details {
-                padding: 10px;
-                .name{
-                    font-size: 14px;
-                }
-                .desig {
-                    font-size: 13px;
-                    font-weight: 600;
-                }
+        
+        .carde{
+            .details{
+                box-shadow: 0px 2px 5px grey;
             }
         }
     }
