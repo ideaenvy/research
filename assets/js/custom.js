@@ -42,8 +42,8 @@ $(function() {
     
 
 
-    $('.card-header h5').click(function() {
-        var $this = $('.card-header .acc_icon .fas');
+    $('.card-header .acc-head').click(function() {
+        var $this = $('.acc-head .acc_icon i');
         var toggled = $this.hasClass("fa-plus");
         $menu.slideToggle();
         $this.toggleClass("fa-minus fa-plus");
