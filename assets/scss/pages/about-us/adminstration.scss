@@ -29,12 +29,21 @@
     
     
     #admins{
-        .acard {
-            padding: 30px;
+        .carde {
+            box-shadow: 0px 0px 4px grey;
+            margin: 20px 0;
             img{
                 width: 100%;
-                border: 6px solid grey;
-                padding: 6px;
+            }
+            .details {
+                padding: 10px;
+                .name{
+                    font-size: 14px;
+                }
+                .desig {
+                    font-size: 13px;
+                    font-weight: 600;
+                }
             }
         }
     }
