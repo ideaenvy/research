@@ -9,6 +9,7 @@ $(document).ready(function () {
 });
 
 
+
 $(function() {
     var header = $(".navbar");
     $(window).scroll(function() {    
@@ -36,6 +37,19 @@ $(function() {
         
         
     });
+
+    /* for accordation icon change */
+    
+
+
+    $('.card-header h5').click(function() {
+        var $this = $('.card-header .acc_icon .fas');
+        var toggled = $this.hasClass("fa-plus");
+        $menu.slideToggle();
+        $this.toggleClass("fa-minus fa-plus");
+    });
+
+
 });
 
 $('.gobottom').click(function() {
@@ -50,3 +64,4 @@ $('.gobottom').click(function() {
     }
 
 });
+
