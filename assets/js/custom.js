@@ -13,14 +13,26 @@ $(function() {
     var header = $(".navbar");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-    
-        if (scroll >= 600) {
-            header.removeClass('lighthead').addClass("darkHeader");
-           
-        } else {
-            header.removeClass("darkHeader").addClass('lighthead');
-           
+        if (window.location.pathname == "/home1.html") {
+            if (scroll >= 550) {
+                header.removeClass('lighthead').addClass("darkHeader");
+               
+            } else {
+                header.removeClass("darkHeader").addClass('lighthead');
+               
+            }
         }
+
+        else{
+            if (scroll >= 150) {
+                header.removeClass('lighthead').addClass("darkHeader");
+               
+            } else {
+                header.removeClass("darkHeader").addClass('lighthead');
+               
+            }
+        }
+        
         
         
     });

@@ -1,0 +1,81 @@
+.adminstration{
+   
+    .navbar {
+        
+        .navbar-brand {
+            width: 100%;
+            img {
+                width: 50%;
+            }
+        }
+    
+        #collapsibleNavbar {
+            width: 100%;
+            .nav-item{
+                .dropdown-menu{ 
+                    background-color: #ece9e5;
+                }
+            }
+        } 
+    }
+    .darkHeader{
+        background-color: black;
+        transition: all 1s linear;
+    }
+    .lighthead{
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: all 1s linear;
+    }
+    
+    
+    #admins{
+        .acard {
+            padding: 30px;
+            img{
+                width: 100%;
+                border: 6px solid grey;
+                padding: 6px;
+            }
+        }
+    }
+    .footer{
+        background-color: rgb(22, 22, 22);
+        color: rgb(219, 217, 217);
+        .acard{
+            padding: 25px;
+            h6{
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 17%;
+                    width: 45px;
+                    height: 2px;
+                    background-color: white;
+                }
+            }
+            .quickk{
+                list-style: none;
+                padding: 0;
+                margin-bottom: 0;
+                li{
+                    /* display: inline-block; */
+                    margin: 0 15px;
+                }
+            }
+            
+            img{
+                width: 100%;
+            }
+            
+        }
+        .rowdivide{
+            background-color: #ece9e5;
+            margin: 0;
+        }
+        .copyright{
+            text-align: right;
+            padding: 10px;
+        }
+    }
+    }
+    
