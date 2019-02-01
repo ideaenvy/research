@@ -38,18 +38,28 @@ $(function() {
         
     });
 
-    /* for accordation icon change */
+  
     
 
 
-    $('.card-header .acc-head').click(function() {
-        var $this = $('.acc-head .acc_icon i');
-        var toggled = $this.hasClass("fa-plus");
-        
-        $this.toggleClass("fa-minus fa-plus");
-    });
-
-
+});
+  /* for accordation icon change */
+$(document).ready(function () {
+    $('.collapse')
+        .on('shown.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-plus")
+                .removeClass("fa-plus")
+                .addClass("fa-minus");
+        })
+        .on('hidden.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-minus")
+                .removeClass("fa-minus")
+                .addClass("fa-plus");
+        });
 });
 
 $('.gobottom').click(function() {
