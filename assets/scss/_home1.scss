@@ -132,33 +132,50 @@ html {
         height: 500px;
         overflow-y: scroll;
         padding: 15px 15px 0 15px;
+        .col-md-12{
+            .dateof_an{
+                float: right;
+                font-size: 75%;
+            }
+            .short_con{
+                color: grey;
+                margin-left: 1%;
+                border-bottom: 1px solid;
+                margin-bottom: 1%;
+                padding-bottom: 1%;
+            }
+        }
     }
     #scrolldivnews {
-        background-image: url("../images/newspaper.jpg");
+        /* background-image: url("../images/newspaper.jpg");
         background-size: cover;
         background-position: center center;
-        background-repeat: repeat-y;
+        background-repeat: repeat-y; */
         height: 500px;
         overflow-y: scroll;
         .overlay {
-            background: rgba(255, 255, 255, 0.5);
+            /* background: rgba(255, 255, 255, 0.5);
             height: 100%;
             width: 100%;
-            padding: 15px 15px 0;
+            padding: 15px 15px 0; */
             .news {
-                background: rgba(255,255,255,.4);
-                list-style: none;
-                padding: 0;
+                /* background: rgba(255,255,255,.4); */
+                /* list-style: none;
+                padding: 0; */
                 .onenews {
                     /* padding: 25px 10px; */
-                    margin: 20px 0;
+                    margin: 20px 20px 0 0;
+                    border-bottom: 1px solid;
                     /* box-shadow: 0px 0px 4px grey; */
                     &:hover{
-                        box-shadow: 0px 1px 6px grey;
+                        /* box-shadow: 0px 1px 6px grey; */
                     }
                     a{
                         color: black;
                         text-decoration: none;
+                        &:hover{
+                            color: #2323a0;
+                        }
                     }
                 }
             }
