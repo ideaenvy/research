@@ -1,5 +1,7 @@
 .departments-pages{
-    
+    .page-container{
+        padding-bottom: 0px;
+    }
     .navbar {
     
         .navbar-brand {
@@ -77,6 +79,80 @@
             i{
                 margin-right: 1%;
             }
+        }
+    }
+
+    #ongoingproj{
+        .headng{
+            position: relative;
+            h2{
+                &:before{
+                    content: "";
+                    position: absolute;
+                    bottom: -13px;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #000;
+                }
+            }
+           
+        }
+        ul{
+            padding-left: 0;
+            li{
+                list-style: none;
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    background-size: 18px;
+                    background-image: url(/assets/images/ongoingproicon.png);
+                    background-repeat: no-repeat;
+                    margin-right: 5px;
+                    vertical-align: middle;
+                  
+                  }
+              
+            }
+
+        }
+    }
+    #completedproj{
+        
+        .headng{
+            position: relative;
+            h2{
+                &:before{
+                    content: "";
+                    position: absolute;
+                    bottom: -13px;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #000;
+                }
+            }
+           
+        }
+        ul{
+            padding-left: 0;
+            li{
+                list-style: none;
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    background-size: 18px;
+                    background-image: url(/assets/images/task-done-outline.png);
+                    background-repeat: no-repeat;
+                    margin-right: 5px;
+                    vertical-align: middle;
+                  
+                  }
+              
+            }
+
         }
     }
 
