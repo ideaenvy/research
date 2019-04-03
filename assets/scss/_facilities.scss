@@ -1,5 +1,12 @@
 .facilities_page{
-
+    .modal{
+        padding-right: 0px !important;
+        top: 10%;
+        .modal-dialog{
+            max-width: unset;
+            padding: 0% 4%;
+        }
+    }
     .navbar {
     
         .navbar-brand {
@@ -125,4 +132,11 @@
         }
     }
     
+}
+.facilities_page.modal-open {
+    overflow: visible !important;
+    padding: 0 !important;
+    nav{
+        padding-right: 1rem !important;
+    }
 }
