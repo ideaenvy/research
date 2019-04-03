@@ -1,0 +1,125 @@
+.faculty_page{
+
+    .navbar {
+    
+        .navbar-brand {
+            width: 100%;
+            img {
+                width: 50%;
+            }
+        }
+    
+        #collapsibleNavbar {
+            width: 100%;
+            .nav-item{
+                .dropdown-menu{ 
+                    background-color: #ece9e5;
+                }
+            }
+        } 
+    }
+    .darkHeader{
+        background-color: black;
+        transition: all 1s linear;
+    }
+    .lighthead{
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: all 1s linear;
+    }
+    
+    #page-header{
+        .img-container{
+            background-image: url(../images/gene_docs.jpg);
+        }
+    }
+
+    .carde{
+        .details{
+            box-shadow: 0px 2px 5px grey;
+            height: 100px;
+            .name{
+                text-transform: uppercase;
+            }
+        }
+    }
+    #proteomics-members{
+        .heading{
+            position: relative;
+            h2{
+                &:before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0%;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+    #cell-members{
+        .heading{
+            position: relative;
+            h2{
+                &:before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0%;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        background-color: rgb(22, 22, 22);
+        color: rgb(219, 217, 217);
+        .acard{
+            padding: 25px;
+            h6{
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 17%;
+                    width: 45px;
+                    height: 2px;
+                    background-color: white;
+                }
+            }
+            .quickk{
+                list-style: none;
+                padding: 0;
+                margin-bottom: 0;
+                li{
+                    /* display: inline-block; */
+                    margin: 0 15px;
+                }
+            }
+            
+            img{
+                width: 100%;
+            }
+            
+        }
+        .rowdivide{
+            background-color: #ece9e5;
+            margin: 0;
+        }
+        .copyright{
+            text-align: right;
+            padding: 10px;
+        }
+    }
+    
+}
