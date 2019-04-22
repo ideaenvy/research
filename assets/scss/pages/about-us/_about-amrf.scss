@@ -57,10 +57,11 @@
 }
 
 #boardom{
-    background-color: #ece9e5;
+    /* background-color: #ece9e5; */
     .heading{
         margin-bottom: 30px;
         position: relative;
+        
         h2{
             &:before{
                 content: "";
@@ -73,7 +74,9 @@
         }
        
     }
-
+    .carde{
+        height: 340px;
+    }
     
 }
 
