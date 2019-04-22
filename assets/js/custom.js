@@ -75,3 +75,18 @@ $('.gobottom').click(function() {
 
 });
 
+$(document).ready(function(){
+    
+   
+    $('.homeone .owl-carousel').owlCarousel({
+    dots: true,
+    loop:true,
+    margin: 10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        }
+    }
+    });
+});
