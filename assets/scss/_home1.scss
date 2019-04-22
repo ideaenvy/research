@@ -230,13 +230,29 @@ html {
             color: #17a2b8;
         }
         #scrolldiv {
-            height: 500px;
-            padding: 15px 15px 0 15px;
-            .gallery.owl-carousel .owl-item img{
-                     width: 100%;
-                     object-fit: cover;
-                     height: 260px;
+            height: 360px;
+            .item{
+                height: 360px;
+                background-color: #fff;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    height: 260px;
+                }
+                p{
+                    font-size: 20px;
+                    padding: 4%;
+                    a{
+                       color: #000;
+                       &:hover{
+                           text-decoration: none;
+                       } 
+                    }  
+                }
             }
+            
+            
+            
             
         
         }
@@ -245,8 +261,10 @@ html {
             background-size: cover;
             background-position: center center;
             background-repeat: repeat-y; */
-            height: 500px;
+            height: 360px;
             overflow-y: scroll;
+            padding: 15px;
+            background-color: white;
             .overlay {
                 /* background: rgba(255, 255, 255, 0.5);
                 height: 100%;
@@ -254,18 +272,18 @@ html {
                 padding: 15px 15px 0; */
                 .news {
                     /* background: rgba(255,255,255,.4); */
-                    /* list-style: none;
-                    padding: 0; */
+                    list-style: none;
+                    padding: 0;
                     .onenews {
                         /* padding: 25px 10px; */
-                        margin: 20px 20px 0 0;
-                        border-bottom: 1px solid;
+                        padding: 10px 0;
+                        border-bottom: .2px solid #d0d0d0;
                         /* box-shadow: 0px 0px 4px grey; */
                         &:hover{
                             /* box-shadow: 0px 1px 6px grey; */
                         }
                         a{
-                            color: black;
+                            color: #3e4c73;
                             text-decoration: none;
                             &:hover{
                                 color: #2323a0;

@@ -78,15 +78,13 @@ $('.gobottom').click(function() {
 $(document).ready(function(){
     
    
-    $('.homeone .owl-carousel').owlCarousel({
-    dots: true,
-    loop:true,
-    margin: 10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-        }
-    }
-    });
+    $(".gallery.owl-carousel").owlCarousel({
+        items: 1, //10 items above 1000px browser width
+        itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+        itemsDesktopSmall: [900, 1], // betweem 900px and 601px
+        itemsTablet: [600, 1], //2 items between 600 and 0
+        slideSpeed: 1000,
+        autoPlay: true,
+        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+      });
 });
