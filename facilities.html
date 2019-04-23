@@ -41,7 +41,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#">Research Programmes</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./departments/genetics.html">Genetics</a>
+                        <a class="dropdown-item" href="#">Genetics</a>
                         <a class="dropdown-item" href="#">Microbiology</a>
                         <a class="dropdown-item" href="#">Stem Cell</a>
                         <a class="dropdown-item" href="#">Proteomics</a>
@@ -49,9 +49,21 @@
                         <a class="dropdown-item" href="#">Bioinformatics</a>
                       </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./phd.html">Academics</a>
-                </li>   
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#">Academics</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./departments/genetics.html">Short term training</a>
+                        <a class="dropdown-item" href="#">M.Sc., / M.Tech Dissertation Programme</a>
+                        <a class="dropdown-item dropdown-submenu">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="padding: 1.5rem;color: inherit;text-decoration: none !important;">Ph.D. Programme</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Ph.D. Programme</a>
+                            <a class="dropdown-item" href="#">Recognition</a>
+                            <a class="dropdown-item" href="./phd.html">Ph.D. Awarded</a>
+                        </div>
+                        </a>
+                    </div>
+                </li> 
                 <li class="nav-item">
                     <a class="nav-link" href="./faculty.html">Faculty</a>
                 </li> 
@@ -80,128 +92,147 @@
               </div>
       </div> 
     </section>
-   
-    <section id="facilities-available" class="page-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 heading">
-                  <h2>Available Facilities</h2>
-                </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                    <div id="sidenewbar" class="sidebar page-container">
+                        <h3 class="sidebar-menuname">
+                                Facilities
+                        </h3>
+                        <ul class="menus">
+                            <li><a class="active" href="../departments/genetics.html">Demo</a></li>
+                            <li><a href="#">Demo</a></li>
+                        </ul>
+                    </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/Orbitrap-Mass-Spectrometer.jpg" alt="">
-                        <div class="details">
-                            <p>Orbitrap-Mass Spectrometer</p>
-                            <hr>
-                            <button data-toggle="modal" data-target="#oneno">Details</button>
+            <div class="col-lg-9">
+                    <section id="facilities-available" class="page-container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 heading">
+                                    <h2>Available Facilities</h2>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/Orbitrap-Mass-Spectrometer.jpg" alt="">
+                                        <div class="details">
+                                            <p>Orbitrap-Mass Spectrometer</p>
+                                            <hr>
+                                            <button data-toggle="modal" data-target="#oneno">Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/HOCAS.jpg" alt="">
+                                        <div class="details">
+                                            <p>Human Organ Culture Anterior Segment (HOCAS)</p>
+                                            <hr>
+                                            <button data-toggle="modal" data-target="#twono">Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/HPLC.jpg" alt="">
+                                        <div class="details">
+                                            <p>Shimadzu High Pressure Liquid Chromatography (HPLC)</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/LEICA.jpg" alt="">
+                                        <div class="details">
+                                            <p>LEICA Confocal Microscope SP2</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/Zeiss.jpg" alt="">
+                                        <div class="details">
+                                            <p>Zeiss Palm Beam Laser capture micro dissection microscope</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/GMP.jpg" alt="">
+                                        <div class="details">
+                                            <p>Good Manufacturing Practice (GMP) facility</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/Flowcytometer-FACS.jpg" alt="">
+                                        <div class="details">
+                                            <p>Flowcytometer-FACS Calibur</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/ABI 7900 HT Fast Real Time PCR.jpg" alt="">
+                                        <div class="details">
+                                            <p>ABI 7900 HT Fast Real Time PCR</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/3130 Genetic Analyzer.jpg" alt="">
+                                        <div class="details">
+                                            <p>ABI 3130 Genetic Analyzer</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/Bioplex.jpg" alt="">
+                                        <div class="details">
+                                            <p>Bioplex</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img src="./assets/images/AMRF Biocomputing Center (ABC).jpg" alt="">
+                                        <div class="details">
+                                            <p>AMRF Biocomputing Center (ABC)</p>
+                                            <hr>
+                                            <button>Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/HOCAS.jpg" alt="">
-                        <div class="details">
-                            <p>Human Organ Culture Anterior Segment (HOCAS)</p>
-                            <hr>
-                            <button data-toggle="modal" data-target="#twono">Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/HPLC.jpg" alt="">
-                        <div class="details">
-                            <p>Shimadzu High Pressure Liquid Chromatography (HPLC)</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/LEICA.jpg" alt="">
-                        <div class="details">
-                            <p>LEICA Confocal Microscope SP2</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/Zeiss.jpg" alt="">
-                        <div class="details">
-                            <p>Zeiss Palm Beam Laser capture micro dissection microscope</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/GMP.jpg" alt="">
-                        <div class="details">
-                            <p>Good Manufacturing Practice (GMP) facility</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/Flowcytometer-FACS.jpg" alt="">
-                        <div class="details">
-                            <p>Flowcytometer-FACS Calibur</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/ABI 7900 HT Fast Real Time PCR.jpg" alt="">
-                        <div class="details">
-                            <p>ABI 7900 HT Fast Real Time PCR</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/3130 Genetic Analyzer.jpg" alt="">
-                        <div class="details">
-                            <p>ABI 3130 Genetic Analyzer</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/Bioplex.jpg" alt="">
-                        <div class="details">
-                            <p>Bioplex</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="./assets/images/AMRF Biocomputing Center (ABC).jpg" alt="">
-                        <div class="details">
-                            <p>AMRF Biocomputing Center (ABC)</p>
-                            <hr>
-                            <button>Details</button>
-                        </div>
-                    </div>
-                </div>
+                    </section>
             </div>
         </div>
-    </section>
+    </div>
+   
+  
 
 
     <div class="modal" id="oneno">
