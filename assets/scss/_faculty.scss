@@ -1,5 +1,5 @@
 .faculty_page{
-
+  
     .navbar {
     
         .navbar-brand {
@@ -46,6 +46,7 @@
     .page-container{
         .heading{
             position: relative;
+            display: none;
             h2{
                 &:before{
                     content: "";

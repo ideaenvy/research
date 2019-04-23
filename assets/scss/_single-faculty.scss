@@ -1,0 +1,31 @@
+.single_faculty{
+    .single{
+        .leftimg{
+            width: 100%;
+        }
+        .details{
+            
+            .grid-schema {
+                display: grid;
+                grid-template-columns: 150px auto;
+                grid-auto-flow: row;
+                grid-auto-rows: 30px;
+                padding: 10px 0;
+            }
+        }
+        
+        
+    }
+    #tabs{
+        .nav-link {
+            padding: .5rem 8.25rem;
+            color: grey;
+            border-bottom: 0.2px solid #2d2d2d;
+        }
+        .active {
+            color: #000;
+            background-color: #fff;
+            border-color: #28292b #2d2d2d #fff;
+        }
+    }
+}
