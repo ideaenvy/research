@@ -17,8 +17,11 @@
         
     }
     #tabs{
+        .nav-item{
+            flex: 1 1 auto;
+            text-align: center;
+        }
         .nav-link {
-            padding: .5rem 8.25rem;
             color: grey;
             border-bottom: 0.2px solid #2d2d2d;
         }

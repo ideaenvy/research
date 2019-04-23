@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
 
-$(function() {
+/* $(function() {
     var header = $(".navbar");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
@@ -42,7 +42,7 @@ $(function() {
     
 
 
-});
+}); */
   /* for accordation icon change */
 $(document).ready(function () {
     $('.collapse')
@@ -88,3 +88,4 @@ $(document).ready(function(){
         itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
       });
 });
+

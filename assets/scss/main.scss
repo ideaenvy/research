@@ -23,12 +23,18 @@ html {
     margin: auto;
 }
 .navbar {
-    background-color: rgba(187, 187, 187, 0.7);
+    background-color: white;
     .navbar-brand {
         width: 100%;
         img {
             width: 50%;
         }
+    }
+    .nav-link{
+        color: #000 !important;
+    }
+    .nav-link.active{
+        font-weight: 500;
     }
 
     #collapsibleNavbar {
@@ -38,7 +44,11 @@ html {
     
 
 }
-
+.lighthead{
+    background-color: white !important;
+    transition: all 0.5s linear;
+    box-shadow: 1px 1px 1px #bfbfbf;
+}
 #page-header{
     height: 50vh;
     overflow: hidden;
