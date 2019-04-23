@@ -1,7 +1,7 @@
 .departments-pages{
-    .page-container{
+    /* .page-container{
         padding-bottom: 0px;
-    }
+    } */
     .navbar {
     
         .navbar-brand {
@@ -59,7 +59,18 @@
         }
     }
 
+    #tabs{
+        .nav-item{
+            background-color: #000;
+            a{
+                color: #fff;
 
+            }
+            .active{
+                color: #000;
+            }
+        }
+    }
     #content{
         .overview{
             img{
