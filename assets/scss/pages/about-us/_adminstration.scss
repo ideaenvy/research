@@ -27,6 +27,30 @@
         transition: all 1s linear;
     }
     
+    #sidenewbar{
+        position: sticky;
+        top: 8%;
+        margin-bottom: 15px;
+        .sidebar-menuname{
+            border-bottom: 2px solid;
+            padding: 3% 0 3% 10%;
+        }
+        .menus{
+            list-style: none;
+            li{
+                padding: 4% 0;
+                a{
+                    color: inherit;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+                .active{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
     
     #admins{
         
