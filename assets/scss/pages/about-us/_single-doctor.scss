@@ -1,0 +1,18 @@
+.sinlge-doctor-page{
+    .single_doctor{
+        .leftimg{
+            width: 100%;
+        }
+        .details{
+            
+            .grid-schema {
+                display: grid;
+                grid-template-columns: 150px auto;
+                grid-auto-flow: row;
+                grid-auto-rows: 30px;
+                padding: 10px 0;
+            }
+        }
+        
+    }
+}
